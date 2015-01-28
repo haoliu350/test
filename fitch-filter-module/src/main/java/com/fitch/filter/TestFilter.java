@@ -28,7 +28,7 @@ public class TestFilter implements Filter{
 		
 		String path  = request.getRequestURI();
 		
-		System.out.println("------------------" + path + "------------------------");
+		System.out.println("------------------" + path + "----------------+--------");
 		chain.doFilter(req, res);
 	}
 
